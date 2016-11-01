@@ -28,7 +28,7 @@ export class Td extends React.Component {
         var stringifiedChildProps;
 
         if (typeof(this.props.data) === 'undefined') {
-          stringifiedChildProps = this.stringifyIfNotReactComponent(this.props.children)
+          //stringifiedChildProps = this.stringifyIfNotReactComponent(this.props.children)
         }
 
         if (isUnsafe(this.props.children)) {
